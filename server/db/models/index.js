@@ -14,6 +14,10 @@ const Company = require('./company')
  * for example, we can say: const {User} = require('../db/models')
  * instead of: const User = require('../db/models/user')
  */
+
+User.belongsTo(Company)
+Company.hasMany(User)
+
 module.exports = {
   User,
   Company
