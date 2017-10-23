@@ -1,14 +1,14 @@
 const router = require('express').Router()
-const {User} = require('../db/models')
+const {Company} = require('../db/models')
 module.exports = router
 
 router.get('/', (req, res, next) => {
-  User.findAll({
+  Company.findAll({
     include: [{
       all: true,
       //nested: true
     }]
   })
-    .then(users => res.json(users))
+    .then(companies => res.json(companies))
     .catch(next)
 })
