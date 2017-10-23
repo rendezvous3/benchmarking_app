@@ -7,10 +7,9 @@ import { UsersList } from './index'
 
 class HomePage extends Component {
   render(){
-    return(<div>
-      <h2>Home Page</h2>
-      <hr />
+    return(<div className="container">
       <UserIdForm />
+      <hr />
       {
         this.props.users ? <UsersList users={this.props.users} /> : null
       }

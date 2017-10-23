@@ -1,21 +1,44 @@
-body {
-  font-family: sans-serif;
+body, h2, h4 {
+  font-family: "Helvetica Neue";
+  font-weight: 200;
 
   a {
     text-decoration: none;
   }
+}
 
-  label {
-    display: block;
-  }
+#custom-search-input{
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
 
-  nav a {
-    display: inline-block;
-    margin: 1em;
-  }
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
+}
 
-  form div {
-    margin: 1em;
-    display: inline-block;
-  }
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
+
+.profile-img {
+  height: 55px;
 }

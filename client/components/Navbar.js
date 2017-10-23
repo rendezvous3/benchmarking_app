@@ -1,17 +1,17 @@
-<h1>BOILERMAKER</h1>
-<nav>
-  {
-    isLoggedIn
-      ? <div>
-        {/* The navbar will show these links after you log in */}
-        <Link to='/home'>Home</Link>
-        <a href='#' onClick={handleClick}>Logout</a>
-      </div>
-      : <div>
-        {/* The navbar will show these links before you log in */}
-        <Link to='/login'>Login</Link>
-        <Link to='/signup'>Sign Up</Link>
-      </div>
-  }
-</nav>
-<hr />
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+export default class Navbar extends Component {
+    render() {
+    return(<nav className="navbar navbar-inverse">
+                <div className="container-fluid">
+                    <div className="navbar-header">
+                        <Link className="navbar-brand" to='/'>Benchmarking App</Link>
+                        </div>
+                        <ul className="nav navbar-nav">
+                        <li><Link to="/">Home</Link></li>
+                    </ul>
+                </div>
+            </nav>)
+    }
+}

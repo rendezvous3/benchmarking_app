@@ -26,13 +26,23 @@ class UserIdForm extends Component {
   }
 
   render(){
-    console.log(this.state)
-    return (<form onSubmit={this.handleSubmit}>
-              <h4>Enter your Id</h4>
-              <hr/>
-              <input type="text" onChange={this.handleChangeId}/>
-              <button>Find</button>
-            </form>)
+    return (<div className="container">
+              <div className="row">
+              <div className="col-sm-6 col-sm-offset-3">
+              <h4 className="text-center">Enter your Id</h4>
+                <form onSubmit={this.handleSubmit}>
+                <div id="custom-search-input">
+                <div className="input-group col-md-12">
+                  <input className="form-control input-lg" placeholder="enter your candidate_id" type="text" onChange={this.handleChangeId}/>
+                  <span className="input-group-btn">
+                  <button className="btn btn-info btn-lg"><i className="glyphicon glyphicon-search"></i></button>
+                  </span>
+                  </div>
+                </div>
+                </form>
+                </div>
+              </div>
+            </div>)
   }
 }
 
