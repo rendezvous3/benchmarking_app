@@ -147,27 +147,111 @@ let data = {
       title: "Engineer",
       companyId: 3
     },
-    // {
-    //   candidate_id: 906,
-    //   communication_score: 52411,
-    //   coding_score: 130449,
-    //   title: "Engineer",
-    //   companyId: 5
-    // },
-    // {
-    //   candidate_id: 907,
-    //   communication_score: 52411,
-    //   coding_score: 130449,
-    //   title: "Engineer",
-    //   companyId: 5
-    // },
-    // {
-    //   candidate_id: 908,
-    //   communication_score: 52411,
-    //   coding_score: 130449,
-    //   title: "Engineer",
-    //   companyId: 5
-    // },
+    {
+      candidate_id: 906,
+      communication_score: 134927,
+      coding_score: 158522,
+      title: "Engineer",
+      companyId: 3
+    },
+    {
+      candidate_id: 907,
+      communication_score: 103008,
+      coding_score: 120101,
+      title: "Engineer",
+      companyId: 3
+    },
+    {
+      candidate_id: 908,
+      communication_score: 120063,
+      coding_score: 155818,
+      title: "Engineer",
+      companyId: 3
+    },
+    {
+      candidate_id: 913,
+      communication_score: 106351,
+      coding_score: 143867,
+      title: "Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 914,
+      communication_score: 101478,
+      coding_score: 123471,
+      title: "Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 915,
+      communication_score: 189456,
+      coding_score: 211567,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 916,
+      communication_score: 86598,
+      coding_score: 137150,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 917,
+      communication_score: 153313,
+      coding_score: 193111,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 918,
+      communication_score: 76857,
+      coding_score: 144194,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 919,
+      communication_score: 138657,
+      coding_score: 178472,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 920,
+      communication_score: 68158,
+      coding_score: 103852,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 921,
+      communication_score: 155124,
+      coding_score: 177076,
+      title: "Senior Engineer",
+      companyId: 4
+    },
+    {
+      candidate_id: 922,
+      communication_score: 52411,
+      coding_score: 130449,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 923,
+      communication_score: 52411,
+      coding_score: 130449,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 924,
+      communication_score: 52411,
+      coding_score: 130449,
+      title: "Engineer",
+      companyId: 5
+    },
   ]
 }
 
