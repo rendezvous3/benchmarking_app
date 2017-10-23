@@ -22,6 +22,7 @@ class UserIdForm extends Component {
   handleSubmit(evt){
     evt.preventDefault()
     console.log(this.state.userId)
+    this.props.getSimilarUsers(this.state.userId)
   }
 
   render(){

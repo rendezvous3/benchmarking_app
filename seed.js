@@ -120,13 +120,6 @@ let data = {
       companyId: 3
     },
     {
-      candidate_id: 902,
-      communication_score: 122314,
-      coding_score: 172996,
-      title: "Senior Engineer",
-      companyId: 3
-    },
-    {
       candidate_id: 903,
       communication_score: 172771,
       coding_score: 182431,
@@ -154,6 +147,27 @@ let data = {
       title: "Engineer",
       companyId: 3
     },
+    // {
+    //   candidate_id: 906,
+    //   communication_score: 52411,
+    //   coding_score: 130449,
+    //   title: "Engineer",
+    //   companyId: 5
+    // },
+    // {
+    //   candidate_id: 907,
+    //   communication_score: 52411,
+    //   coding_score: 130449,
+    //   title: "Engineer",
+    //   companyId: 5
+    // },
+    // {
+    //   candidate_id: 908,
+    //   communication_score: 52411,
+    //   coding_score: 130449,
+    //   title: "Engineer",
+    //   companyId: 5
+    // },
   ]
 }
 
