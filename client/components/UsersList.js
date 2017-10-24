@@ -4,7 +4,7 @@ import { UserLine } from './index'
 
 const UsersList = (props) => {
   return(
-    <div>
+    <div className="col-sm-10 col-sm-offset-1">
       {props.users.map((user, i) => {
         return(<div key={i}><UserLine user={user}/></div>)}
       )}

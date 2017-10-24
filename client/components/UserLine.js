@@ -13,7 +13,7 @@ const UserLine = (props) => {
     color: colorCode,
     fontWeight: 400,
   }
-  return(<div className="text-center">
+  return(<div>
           <p>
           <img className='profile-img'
                src="https://image.flaticon.com/icons/png/128/149/149071.png"/>

@@ -16,11 +16,11 @@ const similarUsers = []
  */
 const fetchSimilarUsersAction = users => ({type: FETCH_SIMILAR_USERS, users})
 
-const areSimilarCompanies = (company1, company2) => {
+export const areSimilarCompanies = (company1, company2) => {
   return Math.abs(company1['fractal_index'] - company2['fractal_index']) < 0.15
 }
 
-const computePercentages = (value1, value2) => {
+export const computePercentages = (value1, value2) => {
   let negative = false
   if (value1 > value2) {
     // https://stackoverflow.com/questions/16201656/how-to-swap-two-variables-in-javascript
@@ -38,7 +38,7 @@ const computePercentages = (value1, value2) => {
 //   return percentage * -1
 // }
 
-const getSimilarUsers = (userId, users) => {
+export const getSimilarUsers = (userId, users) => {
   let userComparing = users.filter(user => Number(user.candidate_id) === Number(userId))[0]
   return users.filter(user => areSimilarCompanies(userComparing.company, user.company))
   .filter(user => userComparing.title === user.title)
