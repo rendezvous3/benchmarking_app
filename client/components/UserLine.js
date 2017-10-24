@@ -3,14 +3,26 @@ import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 
 const UserLine = (props) => {
-  return(<div>
+  let colorCom = props.user.comPercent < 0 ? "red" : "green"
+  let colorCode = props.user.codePercent < 0 ? "red" : "green"
+  let spanStyleCom = {
+    color: colorCom,
+    fontWeight: 400,
+  }
+  let spanStyleCode = {
+    color: colorCode,
+    fontWeight: 400,
+  }
+  return(<div className="text-center">
           <p>
           <img className='profile-img'
                src="https://image.flaticon.com/icons/png/128/149/149071.png"/>
           <span> </span>
           {props.user.candidate_id} |
-          Communication Score difference: % {props.user.comPercent.toFixed(2)} |
-          Code Score difference: % {props.user.codePercent.toFixed(2)}</p>
+          Title: {props.user.title} |
+          Company idx: {props.user.company.fractal_index} |
+          Communication Score difference: % <span style={spanStyleCom}>{props.user.comPercent.toFixed(2)}</span> |
+          Code Score difference: % <span style={spanStyleCode}>{props.user.codePercent.toFixed(2)}</span></p>
           <hr />
         </div>)
 }

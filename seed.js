@@ -233,22 +233,71 @@ let data = {
     },
     {
       candidate_id: 922,
-      communication_score: 52411,
-      coding_score: 130449,
+      communication_score: 129871,
+      coding_score: 190076,
       title: "Engineer",
-      companyId: 5
+      companyId: 1
     },
     {
       candidate_id: 923,
-      communication_score: 52411,
-      coding_score: 130449,
+      communication_score: 164465,
+      coding_score: 177197,
+      title: "Engineer",
+      companyId: 1
+    },
+    {
+      candidate_id: 924,
+      communication_score: 127774,
+      coding_score: 130350,
+      title: "Engineer",
+      companyId: 1
+    },
+    {
+      candidate_id: 925,
+      communication_score: 70485,
+      coding_score: 229371,
+      title: "Engineer",
+      companyId: 1
+    },
+    {
+      candidate_id: 934,
+      communication_score: 113644,
+      coding_score: 150766,
       title: "Engineer",
       companyId: 5
     },
     {
-      candidate_id: 924,
-      communication_score: 52411,
-      coding_score: 130449,
+      candidate_id: 935,
+      communication_score: 65389,
+      coding_score: 82842,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 936,
+      communication_score: 154939,
+      coding_score: 173657,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 937,
+      communication_score: 95392,
+      coding_score: 127356,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 938,
+      communication_score: 67987,
+      coding_score: 100751,
+      title: "Engineer",
+      companyId: 5
+    },
+    {
+      candidate_id: 939,
+      communication_score: 111975,
+      coding_score: 149992,
       title: "Engineer",
       companyId: 5
     },
